@@ -2,6 +2,7 @@
     margin: 0;
    font-family: 'Work Sans';
 }
+
 .Container{
     /* background-color: lightseagreen; */
     height: 40vh;
@@ -9,9 +10,9 @@
 }
 .btn_primary{
     background-color: #F15B22;
-    width: 160px;
-    height: 64px;
-    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
     border: 0;
     color: white;
     font-size: 20px;
@@ -47,10 +48,10 @@
 .Banner_Content{
     width: 40%;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 .banner_title{
-    font-size: 65px;
+    font-size: 70px;
     font-family: 700;
     color: #151414;
 }
@@ -85,7 +86,7 @@ main{
     color: greenyellow;
 }
 .Desc{
-    width: 416px;
+    width: 415px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -124,19 +125,19 @@ main{
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
-    margin: 80px 0;
+    margin: 80px auto;
 }
 .MyPlans h1{
     margin-bottom: 30px;
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
 }
 .box{
     /* background-color: teal; */
-    margin: 30px 0px;
+    margin: 30px 10px;
     display: flex;
-    gap: 80px;
+    gap: 60px;
     justify-content: space-around;
 }
 .Shape{
@@ -240,9 +241,6 @@ footer{
     display: flex;
     flex-direction: column;
     padding-left:120px ;
-}
-.Right_Title{
-   
 }
 .right_email{
     width: 325px;
