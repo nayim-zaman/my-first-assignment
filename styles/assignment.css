@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+   font-family: 'Work Sans';
+}
+.Container{
+    /* background-color: lightseagreen; */
+    height: 40vh;
+    width: 100vw;  
+}
+.btn_primary{
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+.btn_wh{
+    background: white;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* Header start */
+
+/* Banner start */
+.Banner{
+    background: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Banner_Content{
+    width: 40%;
+    text-align: right;
+    margin-right: 150px;
+}
+.banner_title{
+    font-size: 65px;
+    font-family: 700;
+    color: #151414;
+}
+.banner_desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin:20px 0;
+    color: #444343;
+}
+/* Banner end */
+
+/* Header end */
+
+/* main start */
+
+main{
+    width: 80%;
+    margin: 80px auto;
+    /* background-color: lightseagreen; */
+}
+
+/* Main Starts class Start */
+.MainStart{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 80%;
+    margin: auto;
+}
+.mark_Color{
+    color: greenyellow;
+}
+.Desc{
+    width: 416px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* background-color: tomato; */
+}
+.Desc_Title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.Desc_Mid{
+    margin: 20px 0;
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #444343;
+}
+.Desc_Down{
+    margin-left: -40px;
+}
+.Desc_Down li{
+    list-style: none;
+    line-height: 2.2rem;
+    color: #444343;
+}
+/* Main start class end */
+
+
+/* My Plans Start */
+.MyPlans{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 80px 0;
+}
+.MyPlans h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.box{
+    /* background-color: teal; */
+    margin: 30px 0px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+.Shape{
+    text-align: center;
+}
+.Shape h3{
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Shape p{
+    color: #737272;
+    font-size: 25px;
+}
+/* My Plans End */
+
+/* Watch Image Start */
+.WatchImage{
+    background: url('../images/gradient2.png'),url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+/* .bgg{
+    opacity: 0.8;
+} */
+.WatchContent{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 182px; 
+    margin-left: 64px;
+}
+.watchtitle{
+    font-weight: 700;
+    font-size: 40px;
+    width: 450px;
+    color: white;
+    line-height: 3.5rem;
+    margin-bottom:  20px ;
+}
+/* Watch Image End */
+/* main end */
+
+/* footer start */
+footer{
+   background-color: #151414;
+   color: white;
+   display: flex;
+}
+.Left{
+    width: 50%;
+    padding: 50px;
+    /* background-color: #F15B22; */
+}
+.Left_Content{
+    width: 485px;
+    height: 317px;
+    /* background-color: gray; */
+    padding: 10px;
+    padding-left:120px ;
+}
+.Left_Title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.left_desc{
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+.left_eml{
+    margin-top: 20px;
+}
+.left_phn{
+    margin: 20px 0;
+}
+.left_icon{
+    display: flex;
+    gap: 10px;
+}
+.lc{
+    width: 46px;
+    height: 45px;
+   
+}
+.Right{
+    width: 50%;
+    display: flex;
+    padding: 50px;
+    /* background-color: teal; */
+}
+.Right_Content{
+    width: 485px;
+    height: 317px;
+    /* background-color: gray; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left:120px ;
+}
+.Right_Title{
+   
+}
+.right_email{
+    width: 325px;
+    height: 64px;
+    background: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    padding-left:20px;
+    border-radius: 5px;
+}
+/* footer end */
